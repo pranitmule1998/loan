@@ -7,17 +7,23 @@ import Add from './Components/Re/Add.js';
 import Show from './Components/Re/Show.js';
 import Update from './Components/Re/Update.js';
 import Delete from './Components/Re/Delete.js';
-import Navbar from './Components/Navbar.js';
+
+import Home from './Components/Re/Home.js';
+import Login from './Components/Login.js';
+import Logout from './Components/Logout.js';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar/>
+      <Home/>
         <Routes>
+       
           <Route path='/add' element={<Add/>}  ></Route>
           <Route path='/show' element={<Show/>}  ></Route>
           <Route path='/update' element={<Update/>}  ></Route>
           <Route path='/delete' element={<Delete/>}  ></Route>
+          <Route path='/login' element={<Login/>}  ></Route>
+          <Route path='/logout' element={<Logout/>}  ></Route>
         </Routes>
       </BrowserRouter>
     </div>
