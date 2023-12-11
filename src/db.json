@@ -1,0 +1,41 @@
+{
+  "students": [
+    {
+      "id": 0
+    },
+    {
+      "name": "pranit",
+      "lastname": "mule",
+      "email": "pranitmule0@gmail.com",
+      "phone": "12",
+      "pancard": "12",
+      "adharcard": "12",
+      "cibil": "12",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "name": "",
+      "lastname": "",
+      "email": "",
+      "phone": "",
+      "pancard": "",
+      "adharcard": "",
+      "cibil": "",
+      "gender": null,
+      "id": 2
+    },
+    {
+      "name": "",
+      "lastname": "",
+      "date": "2023-11-29",
+      "email": "",
+      "phone": "",
+      "pancard": "",
+      "adharcard": "",
+      "cibil": "",
+      "gender": null,
+      "id": 3
+    }
+  ]
+}

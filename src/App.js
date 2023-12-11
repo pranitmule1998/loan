@@ -20,8 +20,8 @@ function App() {
        
           <Route path='/add' element={<Add/>}  ></Route>
           <Route path='/show' element={<Show/>}  ></Route>
-          <Route path='/update' element={<Update/>}  ></Route>
-          <Route path='/delete' element={<Delete/>}  ></Route>
+          <Route path='/update/:studentId' element={<Update/>}  ></Route>
+          <Route path='/delete/:studentId' element={<Delete/>}  ></Route>
           <Route path='/login' element={<Login/>}  ></Route>
           <Route path='/logout' element={<Logout/>}  ></Route>
         </Routes>

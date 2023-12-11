@@ -4,3 +4,11 @@
 .row{
     border: 1px solid red;
 }
+
+tr{
+    border: 1px solid red;
+}
+
+th,td{
+    border: 1px solid blue; 
+}
